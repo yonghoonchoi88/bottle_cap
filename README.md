@@ -33,9 +33,11 @@ ROI 설정
 새로운 검사 문제에 ROI 직접 적용
     ↓
 결과와 판단 기록
+```
 
 ## Day 02 — Image Enhancement와 검사 영상 품질 개선
 
+```
 1일차에 설정한 ROI를 이용하여
 촬영조건과 영상 품질이 검사 결과에 어떤 영향을 주는지 확인했다.
 
@@ -76,3 +78,34 @@ Day 03에서는 Binary 이미지에
 Morphology와 Contour를 적용하여
 객체의 면적·개수·위치를 측정하고
 Rule 기반 OK / NG 판정으로 연결한다.
+```
+
+
+
+
+
+````
+bottle_cap/
+├── README.md          ← 짧은 소개 + 일지 링크 목록
+├── docs/
+│   ├── day01.md       ← 지금 README의 Day 01 내용
+│   ├── day02.md       ← 지금 README의 Day 02 내용
+│   └── ...
+├── src/
+└── reports/
+````
+
+README는 이 정도면 충분합니다.
+
+````markdown
+# Bottle Cap Machine Vision
+
+OpenCV 기반 제조 머신비전 검사기술을 단계적으로 학습하는 프로젝트입니다.
+
+## 학습 일지
+
+| Day | 주제 | 기록 |
+|---|---|---|
+| 01 | 검사문제 설계와 ROI | [day01.md](docs/day01.md) |
+| 02 | Image Enhancement와 검사 영상 품질 개선 | [day02.md](docs/day02.md) |
+````
