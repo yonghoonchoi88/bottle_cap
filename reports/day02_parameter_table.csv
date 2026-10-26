@@ -1,0 +1,3 @@
+image,problem,method,parameter,improved,worse,next_inspection_helpful
+cap_on.jpg,흰 뚜껑이 포화 직전이고 표면에 세로 홈이 있음,Contrast + CLAHE + Sharpening,"alpha=1.2, beta=-40 / clipLimit=1.5, tile=(4,4) / sigma=1.0, amount=0.5",배경이 더 어두워짐,CLAHE와 Sharpening이 세로 홈을 강조해 Otsu 결과의 뚜껑 내부에 구멍과 세로줄이 생김,no
+cap_on.jpg,흰 뚜껑이 포화 직전이고 표면에 세로 홈이 있음,Contrast + Gaussian Blur,"alpha=1.2, beta=-40 / ksize=(5,5)",뚜껑 내부 구멍과 글자 노이즈가 사라지고 외곽선이 매끄러워짐,투명한 병목이 여전히 흰색으로 같이 잡힘,yes
